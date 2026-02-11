@@ -1,6 +1,9 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
+
+
+
 </script>
 
 <template>
@@ -17,13 +20,19 @@ import { Head } from '@inertiajs/vue3';
 
         <div class="py-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div
-                    class="overflow-hidden bg-white shadow-sm sm:rounded-lg"
-                >
-                    <div class="p-6 text-gray-900">
-                        You're logged in!
+                
+                    <div class="p-6 bg-white  rounded-xl shadow-md border border-gray-200 max-w-lg mx-auto mt-8">
+                        <h1 class="text-2xl font-bold text-gray-900  mb-2">
+                            Welcome to Project Tim!
+                        </h1>
+                        <p class="text-gray-700 ">
+                            Your dashboard is ready.
+                        </p>
+                        <p class="mt-4 text-gray-600 ">
+                            Project Tim is <span class="font-semibold">The Ideal Merchant</span> for Old School RuneScape.
+                        </p>
                     </div>
-                </div>
+                
             </div>
         </div>
     </AuthenticatedLayout>
